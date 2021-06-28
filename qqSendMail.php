@@ -29,7 +29,7 @@ function sendMail($to,$title,$content) {
     //smtp登录的账号 这里填入字符串格式的qq号即可
     $mail->Username = '953005025@qq.com';                 
     // 这个就是之前得到的授权码，一共16位
-    $mail->Password = 'mznurnflhwuxbfae';     
+    $mail->Password = '***';     
     //设置使用ssl加密方式登录鉴权                      
     $mail->SMTPSecure = 'ssl';                            
     // //设置ssl连接smtp服务器的远程服务器端口号，可选465或587
